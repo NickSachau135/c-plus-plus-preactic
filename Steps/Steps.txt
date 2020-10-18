@@ -1,0 +1,17 @@
+1. You will have to first download g++ if on mac 
+    If on windows then you will have to download minGW
+    If on lynix the you will have to download gcc
+
+2. Mac: Your all set
+    Windows: You are going to have to follow the steps on the website: http://www.codebind.com/cprogramming/install-mingw-windows-10-gcc/
+    lynix: I dont know what you will have to do.
+
+3. Next once you have installed g++ and got it working then you are going to have to make the .cpp a .exe file.
+
+4. To make the .cpp to an .exe, in the cmd or in vsc cmd just do g++ file_name.cpp and then you will get a file named a.exe or something along the lines.
+
+5. To be able to run it, open up cmd and type the file_name.exe
+
+6. Then exe files should run and you have created your first c++ file and made it run!
+
+7. Now learn more and keep making more files!
