@@ -1,11 +1,15 @@
 #include <iostream>
+#include <cmath>
 
 using std::cout;
 using std::cin;
 
 int main() {
-    int slices;
-    cout << "What would you like to learn: ";
-    cin >> slices;
-    cout << "If you want to learn " << slices << ". Then look it up on google." << std::endl;
+    int base, exponent;
+    cout << "What is the base?: ";
+    cin >> base;
+    cout << "What is the exponent?: ";
+    cin >> exponent;
+    double power = pow(base, exponent);
+    cout << power;
 }
